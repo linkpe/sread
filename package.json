@@ -1,7 +1,7 @@
 {
   "name": "sread",
-  "version": "1.0.0",
-  "description": "synchron read from Stdini for node, returns String",
+  "version": "1.0.1",
+  "description": "synchron read from Stdin for node, returns String",
   "main": "sread.js",
   "scripts": {
     "test": "test.js"

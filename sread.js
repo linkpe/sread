@@ -11,8 +11,10 @@ let sread = function(frage) {
         anzahl=0,
         ergebnis='',
         fd;
+    if(process.platform ==='win32'){console.log(frage);
+	}else{process.stdout.write(frage);}
+    
     if(process.platform ==='win32'){fd=process.stdin.fd;}else{fd=fs.openSync('/dev/stdin', 'rs');}
-    process.stdout.write(frage);
     try{anzahl=fs.readSync(fd, buffer, 0, buffer.length);
     }catch(err){console.log(err.toString());
     }finally {fs.closeSync(fd);}   
