@@ -1,6 +1,6 @@
 {
   "name": "sread",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "synchron read from Stdin for node, returns String",
   "main": "sread.js",
   "scripts": {
