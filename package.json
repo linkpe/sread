@@ -1,0 +1,19 @@
+{
+  "name": "sread",
+  "version": "1.0.0",
+  "description": "synchron read from Stdini for node, returns String",
+  "main": "sread.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linkpe/sread.git"
+  },
+  "keywords": [
+    "sync",
+    "stdin"
+  ],
+  "author": "Peter Link",
+  "license": "GPL-3.0"
+}
