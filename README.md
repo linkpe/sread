@@ -1,2 +1,2 @@
 # sread
-synchron read from Stdini for node, returns String
+synchron read from Stdin for node, returns String
