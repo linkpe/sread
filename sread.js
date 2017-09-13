@@ -11,8 +11,8 @@ let sread = function(frage) {
         anzahl=0,
         ergebnis='',
         fd;
-    if(process.platform ==='win32'){console.log(frage);
-	}else{process.stdout.write(frage);}
+	console.log(frage);//Sonst zeigt netbeans Konsole nichts an
+	//process.stdout.write(frage);
     
     if(process.platform ==='win32'){fd=process.stdin.fd;}else{fd=fs.openSync('/dev/stdin', 'rs');}
     try{anzahl=fs.readSync(fd, buffer, 0, buffer.length);
