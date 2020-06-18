@@ -20,6 +20,6 @@ let sread = function(frage) {
     }finally {fs.closeSync(fd);}   
     
     ergebnis=buffer.toString('utf-8',0,anzahl-1);
-    return ergebnis;
+    return ergebnis.trim();
 };
 module.exports = sread;
