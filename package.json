@@ -3,6 +3,7 @@
   "version": "1.0.5",
   "description": "synchron read from Stdin for node, returns String",
   "main": "sread.js",
+  "typings" : "sread.d.ts",
   "scripts": {
     "test": "test.js"
   },
